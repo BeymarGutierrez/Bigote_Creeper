@@ -112,3 +112,36 @@ body{
         2000px 40px 0 0 currentColor;
 }
 /* Emanuel fin  */
+/* Ian Inicio   */
+.corbata1{
+    width: 0px; 
+    height: 0px; 
+    left: -200px;
+    top: 200px;
+    position: absolute;
+    border-left: 200px solid red;
+    border-top: 90px solid transparent;
+    border-bottom: 90px solid transparent; 
+}
+.corbata2{
+    width: 0px; 
+    height: 0px; 
+    left: 2px;
+    top: 200px;
+    position: absolute;
+    border-right: 200px solid blue;
+    border-top: 90px solid transparent;
+    border-bottom: 90px solid transparent;
+}
+.nudo-corbata{
+    width: 100px;
+    height: 100px;
+    left: -50px;
+    top: 240px;
+    position: absolute;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: rgb(139, 12, 76);
+}
+/*FIn Ian      */
