@@ -80,3 +80,35 @@ body{
         998px -100px 0 0 currentColor;
 }
 /* Kevin fin  */
+/* Emanuel inicio  */
+.sombrero{
+    content: "";
+    position: absolute;
+    left: -300px;
+    top: -500px;
+    width: 600px;
+    height: 50px;
+    background-color: currentColor;
+}
+.sombrero::before{
+    content: "";
+    position: absolute;
+    left: 75px;
+    top: -250px;
+    width: 450px;
+    height: 300px;
+    border-radius: 20%;
+    background-color: currentColor;
+}
+.sombrero::after{
+    content: "";
+    position: absolute;
+    left: -1925px;
+    top: -140px;
+    width: 450px;
+    height: 100px;
+    color: red;
+    box-shadow: 
+        2000px 40px 0 0 currentColor;
+}
+/* Emanuel fin  */
