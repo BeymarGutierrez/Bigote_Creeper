@@ -167,7 +167,7 @@ body{
 .cigarro{
     width: 250px;
     height: 50px;
-    left: -5px;
+    left: 95px;
     top: 80px;
     position: absolute;
     border: 3px solid #555;
@@ -175,3 +175,35 @@ body{
     }
     
 /*Final Plata */
+/*Inicio Marisol */
+.boca3{
+    width: 225px;
+    height: 100px;
+    left: -125px;
+    top: 100px;
+    position: absolute;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 400%;
+    border-radius: 30%;
+    background: yellow;
+
+}
+.diente1{
+    width: 20px; 
+     height: 50px; 
+     left: -50px;
+    top: 105px;
+    position: absolute;
+     border: 3px solid blue;
+     background:white;
+}
+.diente2{
+    width: 20px; 
+     height: 50px; 
+     left: -10px;
+    top: 105px;
+    position: absolute;
+     border: 3px solid blue;
+     background:white;
+}
+/* fin marisol */
