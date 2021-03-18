@@ -1,9 +1,9 @@
 body{
     background: url(Fondo.jpg);
     font-size: 90px;
-    position: absolute;
+    position:absolute;
     top: 70%;
-    left: 55%;
+    left: 20%;
     transform: translateX(-40%) translateY(-30%);
 }
 .mustache  {
@@ -42,3 +42,41 @@ body{
     transform: rotate(40deg);
     transform-origin: left 210px;
 }
+
+/* Kevin inicio. */
+.amigo{
+    width: 700px;
+    height: 700px;
+    top: -470px;
+    left: 550px;
+    position: absolute;
+    background-color: green;
+}
+.ojos-creeper{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    color: black;
+    box-shadow: 
+        600px -400px 0 0 currentColor,
+        1000px -400px 0 0 currentColor;
+}
+.boca1{
+    width:200px;
+    height: 250px;
+    top: -200px;
+    left: 800px;
+    position: absolute;
+    background-color: black;
+
+}
+.boca2{
+    width: 100px;
+    height: 250px;
+    position: absolute;
+    color: black;
+    box-shadow: 
+        701px -100px 0 0 currentColor,
+        998px -100px 0 0 currentColor;
+}
+/* Kevin fin  */
